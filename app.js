@@ -21,3 +21,14 @@ function openmenu(){
 function closemenu(){
     sidemenu.style.right = "-200px";
 }
+
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwLeT4xctfoJRe9Wt5H_erH_R193EcuIp6qZGaWewJZCJ7sRpxy1Koj1vlcwy_zQ8V92w/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })

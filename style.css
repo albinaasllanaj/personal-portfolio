@@ -208,7 +208,7 @@ margin: 10px 0;
 }
 
 .services-list div{
-    background: #CFA2AC;
+    background: #e7cece;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -238,7 +238,7 @@ margin: 10px 0;
 }
 
 .services-list div:hover{
-    background: #e7cece;
+    background: #CFA2AC;
     transform: translateY(-10px);
 }
 
@@ -319,12 +319,13 @@ margin: 10px 0;
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #CFA2AC;
+    border: ridge #CFA2AC;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
     color: black;
     transition: 0.5s;
+
 }
 
 .btn:hover{
@@ -376,6 +377,7 @@ margin: 10px 0;
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+    border: ridge #CFA2AC;
 }
 
 .btn.btn2:hover{
@@ -407,6 +409,10 @@ form input, form textarea{
     font-weight: 300;
     margin-top: 20px;
     text-decoration: overline #CFA2AC;
+}
+
+.heart{
+    color: #CFA2AC;
 }
 
 /*------------------responsive web css ---------------- */

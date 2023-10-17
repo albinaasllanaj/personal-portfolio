@@ -192,7 +192,7 @@ margin: 10px 0;
       }
     
 .job-description {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 
@@ -274,7 +274,7 @@ margin: 10px 0;
     border-radius: 10px;
     display: block;
     transition: 0.5s;
-    border: ridge #CFA2AC;
+    border: none;
 }
 
 .layer{
@@ -326,7 +326,7 @@ margin: 10px 0;
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: ridge #CFA2AC;
+    border: solid #CFA2AC;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -384,7 +384,7 @@ margin: 10px 0;
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
-    border: ridge #CFA2AC;
+    border: solid #CFA2AC;
 }
 
 .btn.btn2:hover{
@@ -406,7 +406,7 @@ form input, form textarea{
     color: black;
     font-size: 18px;
     border-radius: 6px;
-    border: ridge #CFA2AC;
+    border: solid #CFA2AC;
 }
 .copyright{
     width: 100%;

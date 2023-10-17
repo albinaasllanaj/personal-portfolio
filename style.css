@@ -172,6 +172,7 @@ margin: 10px 0;
     font-size: 14px;
 }
 
+
 .tab-contents{
     display: none;
 }
@@ -190,7 +191,9 @@ margin: 10px 0;
         display: inline-block;
       }
     
-
+.job-description {
+    font-size: 15px;
+}
 
 
 /*------------------services ---------------- */

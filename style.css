@@ -195,6 +195,32 @@ margin: 10px 0;
     font-size: 14px;
 }
 
+.skill-list {
+    margin-top: -30px;
+}
+
+.tab-contents .experience-links .resume {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.tab-contents .experience-links .linkedin {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.experience-links .experience-reference {
+    margin-top: -30px;
+}
+
+.experience-links .experience-reference .resume {
+    margin-top: -50px;
+}
+
+
+.education-list {
+    margin-top: -30px;
+}
 
 /*------------------services ---------------- */
 
@@ -471,10 +497,9 @@ nav .fa-solid{
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
+        
     }
-    .about-col-1{
-        margin-bottom: 30px;
-    }
+  
     .about-col-2{
         font-size: 14px;
     }

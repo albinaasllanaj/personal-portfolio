@@ -1,67 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio of Albina Asllanaj</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/efb6aeb5f2.js" crossorigin="anonymous"></script>
-
-</head>
-<body>
-
-<!----------HEADER-------------->
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/efb6aeb5f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!----------HEADER-------------->
 
     <div class="back" id="header">
-<div class="container">
-    <nav>
-        <img src="images/Albina-Logo1.PNG" class="logo" alt="logo">
-        <ul id="sidemenu" class="mainmenu">
+      <div class="container">
+        <nav>
+          <img src="images/Albina-Logo1.PNG" class="logo" alt="logo" />
+          <ul id="sidemenu" class="mainmenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">My Work</a></li>
             <li><a href="#contact">Contact</a></li>
             <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
-        </ul>
-        <i class="close fa-solid fa-bars" onclick="openmenu()"></i>
-    </nav>
-<div class="header-text">
-    <p>Software Developer</p>
-    <h1>Hi, I'm <span>Albina</span> <br> from New York</h1>
-</div>
-</div>
+          </ul>
+          <i class="close fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>
+            Hi, I'm <span>Albina</span> <br />
+            from New York
+          </h1>
+        </div>
+      </div>
     </div>
 
     <!---------------------about me------------------>
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img class="headshot" src="images/EC8FF6EA-F348-43B0-B13E-F833C705A238.png" alt="">
-                </div>
-                <div class="about-col-2">
-                <h2 class="sub-title">About Me</h2>
-                <p class="abt">
-                    Based in New York, I'm a passionate software developer who relishes creative challenges. I have a strong coding passion and employ a minimalist aesthetic to create straightforward, responsive websites with a touch of whimsy. Constantly learning new skills and staying engaged with the developer community, I craft websites and web applications using HTML, CSS, and JavaScript. I'm proficient with tools like VS Code and GitHub, and I specialize in React and API integration. Additionally, I excel in content management, particularly in WordPress, where I design user-friendly, dynamic, and scalable websites. Feel free to explore my projects and get in touch!
-                </p>
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links"onclick="opentab('education')">Education</p>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              class="headshot"
+              src="images/EC8FF6EA-F348-43B0-B13E-F833C705A238.png"
+              alt=""
+            />
+          </div>
+          <div class="about-col-2">
+            <h2 class="sub-title">About Me</h2>
+            <p class="abt">
+              Based in New York, I'm a passionate software developer who
+              relishes creative challenges. I have a strong coding passion and
+              employ a minimalist aesthetic to create straightforward,
+              responsive websites with a touch of whimsy. Constantly learning
+              new skills and staying engaged with the developer community, I
+              craft websites and web applications using HTML, CSS, and
+              JavaScript. I'm proficient with tools like VS Code and GitHub, and
+              I specialize in React and API integration. Additionally, I excel
+              in content management, particularly in WordPress, where I design
+              user-friendly, dynamic, and scalable websites. Feel free to
+              explore my projects and get in touch!
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
 
-                </div>
+            <div class="tab-contents active-tab" id="skills">
+              <!----------------SKILLS------------------------->
 
-                <div class="tab-contents active-tab" id="skills" >
-                    
-<!----------------SKILLS------------------------->
+              <p class="skill-list">
+                HTML, CSS, JavaScript, API, React, PHP, WordPress, Node,SEO,
+                Bootstrap, <br />
+                Github, Responsive Web, Flexbox, SQL
+              </p>
 
-                    <p class="skill-list">HTML, CSS, JavaScript, API, React, PHP, WordPress, Node,SEO, Bootstrap, <br>
-                         Github, Responsive Web, Flexbox, SQL
-                    </p>
-     
-     <!----  <ul class="list-1">
+              <!----  <ul class="list-1">
                        <li>HTML</li>
                         <li>CSS</li>
                         <li>Javascript</li>
@@ -80,23 +102,29 @@
                         <li>SQL</li>
                         <li>WordPress</li>
                     </ul>---->
-                  
-                    
-                </div>  
-                
-                <!----------------EXPERIENCE------------------------->
-                <div class="tab-contents" id="experience">
-                
-                    <ul class="experience-links">
-                        <li class="experience-reference">
-                            <a  href="https://www.linkedin.com/in/albinaasllanaj/" class="btn btn2 linkedin">LinkedIn</a>
-                        </li>
-                        <li class="experience-reference">
-                            <a href="images/Albina Asllanaj Resume.pdf" download class="btn btn2 resume">Download CV</a>
-                        </li>
-                    </ul>
+            </div>
 
-                   <!---<ul>
+            <!----------------EXPERIENCE------------------------->
+            <div class="tab-contents" id="experience">
+              <ul class="experience-links">
+                <li class="experience-reference">
+                  <a
+                    href="https://www.linkedin.com/in/albinaasllanaj/"
+                    class="btn btn2 linkedin"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li class="experience-reference">
+                  <a
+                    href="images/Albina Asllanaj Resume.pdf"
+                    download
+                    class="btn btn2 resume"
+                    >Download CV</a
+                  >
+                </li>
+              </ul>
+
+              <!---<ul>
                        <li> <span class="job-date"> Oct 2022- Current</span><br><strong>Web Developer</strong>  | WebServes
                         <p class="job-description">Created responsive UIs with React.js for client projects, including theme development, plugin creation, and HTML page conversion. Managed CSS, APIs, and monitored site performance, focusing on clean, reusable code for superior user experiences.</p>
                     </li>
@@ -115,180 +143,459 @@
 
 
                     </ul>---->
-                    
-                    
-                </div>
-
-                <!----------------EDUCATION-------------------------> 
-                <div class="tab-contents" id="education" >
-                    <ul class="education-list">
-                
-                        <li class="education-list"> <!--<span>Feb 2022- December 2022 </span><br> !--><strong>Javascript and React Development Certification</strong> | SheCodes </li>
-                        <li class="education-list"> <!--<span>2016 - 2020</span><br>!--><strong>Bachelor of Science</strong> | Lehman College  </li> 
-                        
-                    </ul>
-                </div>
-                </div>
             </div>
+
+            <!----------------EDUCATION------------------------->
+            <div class="tab-contents" id="education">
+              <ul class="education-list">
+                <li class="education-list">
+                  <!--<span>Feb 2022- December 2022 </span><br> !--><strong
+                    >Javascript and React Development Certification</strong
+                  >
+                  | SheCodes
+                </li>
+                <li class="education-list">
+                  <!--<span>2016 - 2020</span><br>!--><strong
+                    >Bachelor of Science</strong
+                  >
+                  | Lehman College
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-<!------------------services----------------->
-<div id="services">
-<div class="container">
-    <h2 class="sub-title">My Services</h2>
-    <div class="services-list">
-        <div>
-            <i class="fa-solid fa-code"></i> 
-            <h3>HTML & CSS </h3>
-            <p>Utilizing HTML and CSS, I build websites that look good on all devices while being designed to match the organization's guidelines.</p>
-            
-        </div>
-       <div>
-        <i class="fa-brands fa-js"></i><i class="fa-brands fa-react"></i>
+    <!------------------services----------------->
+    <div id="services">
+      <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h3>HTML & CSS</h3>
+            <p>
+              Utilizing HTML and CSS, I build websites that look good on all
+              devices while being designed to match the organization's
+              guidelines.
+            </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-js"></i><i class="fa-brands fa-react"></i>
             <h3>JS & React</h3>
-            <p class="reactjs">By using Javascript and React I am able to implement various, complex features on web pages.</p>
-            
-        </div> 
-        <div>
+            <p class="reactjs">
+              By using Javascript and React I am able to implement various,
+              complex features on web pages.
+            </p>
+          </div>
+          <div>
             <i class="fa-brands fa-wordpress-simple"></i>
             <h3>WordPress</h3>
-            <p class="reactjs">Using WordPress, I design and create beautiful, functional, dynamic user interfaces and webage layouts.</p>
-            
+            <p class="reactjs">
+              Using WordPress, I design and create beautiful, functional,
+              dynamic user interfaces and webage layouts.
+            </p>
+          </div>
         </div>
-        
+      </div>
     </div>
-</div>
-</div>
 
-<!-------------------portfolio---------------------------->
+    <!-------------------portfolio---------------------------->
 
-<div id="portfolio">
-<div class="container">
-    <h2 class="sub-title">My Projects</h2>
-    <div class="work-list">
-        <div class="work">
-            <img src="images/EZC.png" alt="" width="30px" height="400px">
-            <div class="layer">
-                <h3>EZ Corporate Clothing</h3>
-                <p>(Shopify) -Updated the Home page and all of the Hub pages to optimize user experience and increase conversion rates. Used SEMrush and Google Analytics to monitor keyowrd and increase 
-                    website traffic by 18%. 
-                    </p>
-                    <a href="https://www.ezcorporateclothing.com/?gclid=Cj0KCQiA2KitBhCIARIsAPPMEhKPcBRDxebQvJAf_1EidBRI5KKPhJl0Wg1YqXhxHamn-5zxA5RgqFcaAqIKEALw_wcB" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-        <div class="work">
-            <img src="images/WebServesProject.PNG" alt="" width="30px" height="400px">
-            <div class="layer">
-                <h3>WebServes</h3>
-                <p>(WordPress) -Revamped Home, Who We Are, and What We Do pages. Modified the theme, incorporated plugins, and implemented essential 
-                    adjustments to ensure an improved user experience.
-                    </p>
-                    <a href="https://webserves.org/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-        <div class="work">
-            <img src="images/ShopperScreenshot.PNG" alt="" width="30px" height="400px">
-            <div class="layer">
-                <h3>Shopper</h3>
-                <p>(React.js) -Ecommerce website with features like adding products to cart 
-                    and completing the checkout process. 
-                    Allows users to create accounts and store personal details. 
-                    </p>
-                    <a href="https://majestic-bublanina-55a806.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-        <div class="work">
-            <img src="images/Travelia.PNG" alt="" width="30px" height="400px">
-            <div class="layer">
-                <h3>Travelia</h3>
-                <p>(JavaScript) -Responsive web application focused on travel 
-                    exploration. Includes features such as destination details, interactive 
-                    maps, user reviews, and social media sharing capabilities
-                    </p>
-                    <a href="https://travelia-site.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-        <div class="work">
-            <img src="images/meditationStation.PNG" alt="" width="30px" height="400px">
-            <div class="layer">
-                <h3>Meditation Station</h3>
-                <p>Your personal oasis for serenity, offering a variety of soothing sounds and customizable meditation durations to help you find tranquility and relaxation.</p>
-                    <a href="https://abbys-meditation-station.netlify.app/" target="_blank" ><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-           <div class="work">
-            <img src="images/react-weather-app.PNG" alt="" width="30px" height="400px">
-            <div class="layer">
-                <h3>Weather App</h3>
-                <p>(React.js) -A weather application, which provides the current weather and weekly forecast for all countries across the globe! </p>
-                    <a href="https://abbysreactweatherapp.netlify.app/" target="_blank" ><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-        
-        <div class="work">
-            <img src="images/todotasklist.PNG" alt="" width="30px" height="400px">
-            <div class="layer">
-                <h3>Task Organizer</h3>
-                <p>An application to help you organize your tasks. Allows you to create your list of errands and helps you coordinate your day accordingly. </p>
-                    <a href="https://sparkly-snickerdoodle-cf4b86.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-     
-        <div class="work">
-            <img src="images/quoteApp.PNG" alt="" width="30px" height="400px">
-            <div class="layer">
-                <h3>Quote Generator</h3>
-                <p>This app generates a new popular and meaningful quote everytime the button "new quote" is clicked. Allows for sharing directly to Twitter. </p>
-                    <a href="https://ubiquitous-narwhal-6a3c80.netlify.app/" target="_blank" ><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-           <div class="work">
-            <img src="images/magic8ball.PNG" alt="" width="30px" height="400px">
-            <div class="layer">
-                <h3>Magic 8 Ball</h3>
-                <p> Ask questions, shake the virtual ball, and receive its enigmatic responses to add a touch of fortune-telling fun to your day.</p>
-                    <a href="https://cerulean-licorice-ad25d2.netlify.app/" target="_blank" ><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-        
-    </div>
-    <a href="https://github.com/albinaasllanaj" target="_blank" class="btn" >See more</a>
-</div>
-</div>
 
-<!-------------------contact---------------------------->
+    <div id="portfolio">
+      <div class="container">
+        <h2 class="sub-title">My Projects</h2>
 
-<div id="contact">
+       <div class="card-container">
+
+       
+            <div class="card">
+    <img src="images/logo-EZC.png" alt="Avatar" />
     <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h2 class="sub-title">Contact Me</h2>
-                <p><i class="fa-regular fa-paper-plane"></i>abbyaslla@gmail.com</p>
-                <div class="social-icons">
-                    <a href="https://github.com/albinaasllanaj"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/albinaasllanaj/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/albina_a___/"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Full Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message..."></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
-            </div>
+      <p class="project-description">
+        Updated the Home page and all of the Hub pages to optimize user experience
+        and increase conversion rates. Used SEMrush and Google Analytics to
+        monitor keyword and increase website traffic by 18%.
+      </p>
+      <a
+                href="https://www.ezcorporateclothing.com/?gclid=Cj0KCQiA2KitBhCIARIsAPPMEhKPcBRDxebQvJAf_1EidBRI5KKPhJl0Wg1YqXhxHamn-5zxA5RgqFcaAqIKEALw_wcB"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+     
+    </div>
+  </div>
+        
+        
+   <div class="card">
+    <img class="all-saint" src="images/logoAllSaints.png" alt="Avatar" width="40px" height="40px" />
+    <div class="container">
+      <p class="project-description">
+       Revamped Home, Who We Are, and What We Do pages.
+                Modified the theme, incorporated plugins, and implemented
+                essential adjustments to ensure an improved user experience.
+      </p>
+       <a
+                href="https://www.ezcorporateclothing.com/?gclid=Cj0KCQiA2KitBhCIARIsAPPMEhKPcBRDxebQvJAf_1EidBRI5KKPhJl0Wg1YqXhxHamn-5zxA5RgqFcaAqIKEALw_wcB"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+    </div>
+  </div>
+   <div class="card">
+    <img src="images/logo-NOC.png" alt="Avatar" />
+    <div class="container">
+      <p class="project-description">
+        Updated the Home page and all of the Hub pages to optimize user experience
+        and increase conversion rates. Used SEMrush and Google Analytics to
+        monitor keyword and increase website traffic by 18%.
+      </p>
+      <a
+                href="https://www.ezcorporateclothing.com/?gclid=Cj0KCQiA2KitBhCIARIsAPPMEhKPcBRDxebQvJAf_1EidBRI5KKPhJl0Wg1YqXhxHamn-5zxA5RgqFcaAqIKEALw_wcB"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+      
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/ws_logo.svg" alt="Avatar" />
+    <div class="container">
+      <p class="project-description">
+        Updated the Home page and all of the Hub pages to optimize user experience
+        and increase conversion rates. Used SEMrush and Google Analytics to
+        monitor keyword and increase website traffic by 18%.
+      </p>
+      <a
+                href="https://www.ezcorporateclothing.com/?gclid=Cj0KCQiA2KitBhCIARIsAPPMEhKPcBRDxebQvJAf_1EidBRI5KKPhJl0Wg1YqXhxHamn-5zxA5RgqFcaAqIKEALw_wcB"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+    </div>
+  </div>
+   <div class="card">
+    <img src="images/shopper-logo.png" alt="Avatar" />
+    <div class="container">
+      <p class="project-description">
+        Updated the Home page and all of the Hub pages to optimize user experience
+        and increase conversion rates. Used SEMrush and Google Analytics to
+        monitor keyword and increase website traffic by 18%.
+      </p>
+      <a
+                href="https://www.ezcorporateclothing.com/?gclid=Cj0KCQiA2KitBhCIARIsAPPMEhKPcBRDxebQvJAf_1EidBRI5KKPhJl0Wg1YqXhxHamn-5zxA5RgqFcaAqIKEALw_wcB"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+    </div>
+  </div>
+   <div class="card">
+    <img src="images/travelia.png" alt="Avatar" />
+    <div class="container">
+      <p class="project-description">
+        Updated the Home page and all of the Hub pages to optimize user experience
+        and increase conversion rates. Used SEMrush and Google Analytics to
+        monitor keyword and increase website traffic by 18%.
+      </p>
+      <a
+                href="https://www.ezcorporateclothing.com/?gclid=Cj0KCQiA2KitBhCIARIsAPPMEhKPcBRDxebQvJAf_1EidBRI5KKPhJl0Wg1YqXhxHamn-5zxA5RgqFcaAqIKEALw_wcB"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+    </div>
+  </div>
+
+
+
+  
+       </div>
+
+
+<!----- <div id="portfolio">
+      <div class="container">
+        <h2 class="sub-title">My Projects</h2>
+
+        <div class="card">
+          <img src="images/logo-EZC.png" alt="Avatar" style="width: 250px" />
+          <div class="container">
+            <p class="project-description">
+              Updated the Home page and all of the Hub pages to optimize user
+              experience and increase conversion rates. Used SEMrush and Google
+              Analytics to monitor keyowrd and increase website traffic by 18%.
+            </p>
+          </div>
         </div>
-    </div>
-    <div class="copyright">
+
+        <div class="card">
+          <img src="images/logo-EZC.png" alt="Avatar" style="width: 250px" />
+          <div class="container">
+            <p class="project-description">
+              Updated the Home page and all of the Hub pages to optimize user
+              experience and increase conversion rates. Used SEMrush and Google
+              Analytics to monitor keyowrd and increase website traffic by 18%.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/logo-EZC.png" alt="Avatar" style="width: 250px" />
+          <div class="container">
+            <p class="project-description">
+              Updated the Home page and all of the Hub pages to optimize user
+              experience and increase conversion rates. Used SEMrush and Google
+              Analytics to monitor keyowrd and increase website traffic by 18%.
+            </p>
+          </div>
+        </div>
+
+        <div class="work-list">
+          <div class="work">
+            <img src="images/EZC.png" alt="" width="30px" height="400px" />
+            <div class="layer">
+              <h3>ALL SAINTS</h3>
+              <p>
+                (Shopify) -Updated the Home page and all of the Hub pages to
+                optimize user experience and increase conversion rates. Used
+                SEMrush and Google Analytics to monitor keyowrd and increase
+                website traffic by 18%.
+              </p>
+              <a
+                href="https://www.ezcorporateclothing.com/?gclid=Cj0KCQiA2KitBhCIARIsAPPMEhKPcBRDxebQvJAf_1EidBRI5KKPhJl0Wg1YqXhxHamn-5zxA5RgqFcaAqIKEALw_wcB"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/EZC.png" alt="" width="30px" height="400px" />
+            <div class="layer">
+              <h3>EZ Corporate Clothing</h3>
+              <p>
+                (Shopify) -Updated the Home page and all of the Hub pages to
+                optimize user experience and increase conversion rates. Used
+                SEMrush and Google Analytics to monitor keyowrd and increase
+                website traffic by 18%.
+              </p>
+              <a
+                href="https://www.ezcorporateclothing.com/?gclid=Cj0KCQiA2KitBhCIARIsAPPMEhKPcBRDxebQvJAf_1EidBRI5KKPhJl0Wg1YqXhxHamn-5zxA5RgqFcaAqIKEALw_wcB"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="images/WebServesProject.PNG"
+              alt=""
+              width="30px"
+              height="400px"
+            />
+            <div class="layer">
+              <h3>WebServes</h3>
+              <p>
+                (WordPress) -Revamped Home, Who We Are, and What We Do pages.
+                Modified the theme, incorporated plugins, and implemented
+                essential adjustments to ensure an improved user experience.
+              </p>
+              <a href="https://webserves.org/" target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="images/ShopperScreenshot.PNG"
+              alt=""
+              width="30px"
+              height="400px"
+            />
+            <div class="layer">
+              <h3>Shopper</h3>
+              <p>
+                (React.js) -Ecommerce website with features like adding products
+                to cart and completing the checkout process. Allows users to
+                create accounts and store personal details.
+              </p>
+              <a
+                href="https://majestic-bublanina-55a806.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Travelia.PNG" alt="" width="30px" height="400px" />
+            <div class="layer">
+              <h3>Travelia</h3>
+              <p>
+                (JavaScript) -Responsive web application focused on travel
+                exploration. Includes features such as destination details,
+                interactive maps, user reviews, and social media sharing
+                capabilities
+              </p>
+              <a href="https://travelia-site.netlify.app/" target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="images/meditationStation.PNG"
+              alt=""
+              width="30px"
+              height="400px"
+            />
+            <div class="layer">
+              <h3>Meditation Station</h3>
+              <p>
+                Your personal oasis for serenity, offering a variety of soothing
+                sounds and customizable meditation durations to help you find
+                tranquility and relaxation.
+              </p>
+              <a
+                href="https://abbys-meditation-station.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="images/react-weather-app.PNG"
+              alt=""
+              width="30px"
+              height="400px"
+            />
+            <div class="layer">
+              <h3>Weather App</h3>
+              <p>
+                (React.js) -A weather application, which provides the current
+                weather and weekly forecast for all countries across the globe!
+              </p>
+              <a
+                href="https://abbysreactweatherapp.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img
+              src="images/todotasklist.PNG"
+              alt=""
+              width="30px"
+              height="400px"
+            />
+            <div class="layer">
+              <h3>Task Organizer</h3>
+              <p>
+                An application to help you organize your tasks. Allows you to
+                create your list of errands and helps you coordinate your day
+                accordingly.
+              </p>
+              <a
+                href="https://sparkly-snickerdoodle-cf4b86.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/quoteApp.PNG" alt="" width="30px" height="400px" />
+            <div class="layer">
+              <h3>Quote Generator</h3>
+              <p>
+                This app generates a new popular and meaningful quote everytime
+                the button "new quote" is clicked. Allows for sharing directly
+                to Twitter.
+              </p>
+              <a
+                href="https://ubiquitous-narwhal-6a3c80.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="images/magic8ball.PNG"
+              alt=""
+              width="30px"
+              height="400px"
+            />
+            <div class="layer">
+              <h3>Magic 8 Ball</h3>
+              <p>
+                Ask questions, shake the virtual ball, and receive its enigmatic
+                responses to add a touch of fortune-telling fun to your day.
+              </p>
+              <a
+                href="https://cerulean-licorice-ad25d2.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/albinaasllanaj" target="_blank" class="btn"
+          >See more</a
+        >
+      </div>
+    </div>-------->
+   
+
+    <!-------------------contact---------------------------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h2 class="sub-title">Contact Me</h2>
+            <p><i class="fa-regular fa-paper-plane"></i>abbyaslla@gmail.com</p>
+            <div class="social-icons">
+              <a href="https://github.com/albinaasllanaj"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/albinaasllanaj/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/albina_a___/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your Full Name"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message..."
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
         <p>Copyright © Albina.<i class="heart fa-solid fa-heart"></i></p>
+      </div>
     </div>
-</div>
 
-
-    <script src="app.js">
-
-    </script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>

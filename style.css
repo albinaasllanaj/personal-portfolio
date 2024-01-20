@@ -45,8 +45,11 @@ nav {
 }
 
 
+
 .logo {
-  width: 140px;
+  width: 90px;
+  height: 40px;
+  margin-top: 20px;
 }
 
 .close,
@@ -58,6 +61,7 @@ nav ul li {
   display: inline-block;
   list-style: none;
   margin: 10px 20px;
+  font-weight: 900;
 
 }
 

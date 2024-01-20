@@ -421,6 +421,10 @@ form textarea {
   color: #cfa2ac;
 }
 
+footer {
+  margin-top: 150px;
+}
+
 /*------------------responsive web css ---------------- */
 
 nav .fa-solid {

@@ -470,3 +470,15 @@ nav .fa-solid {
     width: 100%;
     margin-bottom: 20px; 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #portfolio .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #portfolio .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

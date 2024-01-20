@@ -270,27 +270,28 @@ p {
 .card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-  gap: 20px; /* Add gap between cards */
+  gap: 20px;
+  margin-top: 50px;
 
   .card {
-    text-align: center; /* Center the content horizontally */
+    text-align: center;
     position: relative;
     height: 300px;
   }
 }
 
 .card img {
-  width: 80%; /* Set the image width to 80% of the card */
-  max-width: 100%; /* Ensure the image doesn't exceed its original size */
-  height: 75px; /* Maintain the image's aspect ratio */
+  width: 80%;
+  max-width: 100%;
+  height: 75px;
 }
 
 .container {
-  margin-top: 10px; /* Add some space between the image and text */
+  margin-top: 10px;
 }
 
 .card i {
-  font-size: 24px; /* Set the desired font size */
+  font-size: 24px;
   padding-top: 10px;
   color: black;
   position: absolute;
@@ -298,101 +299,19 @@ p {
 }
 
 a {
-  align-self: flex-end; /* Align the link to the bottom of the container */
+  align-self: flex-end;
 }
 
 .card .all-saint {
   height: 80px;
   width: 80px;
 }
-/***
-.work-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 40px;
-  margin-top: 50px;
-}
-
-.work {
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
-}
-
-.work img {
-  width: 100%;
-  border-radius: 10px;
-  display: block;
-  transition: 0.5s;
-  border: none;
-}
-
-.layer {
-  width: 100%;
-  height: 0%;
-  background: linear-gradient(rgba(255, 253, 253, 0.6), #e6d7da);
-  border-radius: 10px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0 40px;
-  text-align: center;
-  font-size: 14px;
-  transition: 0.5s;
-}
-
-.layer h3 {
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-
-.layer a {
-  margin-top: 20px;
-  color: #cfa2ac;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 60px;
-  background: black;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  text-align: center;
-}
-
-.work:hover img {
-  transform: scale(1.1);
-}
-
-.work:hover .layer {
-  height: 100%;
-}
-
-.btn {
-  display: block;
-  margin: 50px auto;
-  width: fit-content;
-  border: solid #cfa2ac;
-  padding: 14px 50px;
-  border-radius: 6px;
-  text-decoration: none;
-  color: black;
-  transition: 0.5s;
-}
-
-.btn:hover {
-  background: #cfa2ac;
-}
-
-
-***/
 
 /*------------------contact me ---------------- */
 
+.contact {
+  margin-top: 150px;
+}
 .contact-left {
   flex-basis: 35%;
 }
@@ -538,4 +457,15 @@ nav .fa-solid {
   color: #61b752;
   margin-top: -30px;
   display: block;
+}
+
+@media only screen and (max-width: 480px) {
+  #portfolio .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #portfolio .card {
+    width: 100%;
+    margin-bottom: 20px; 
 }

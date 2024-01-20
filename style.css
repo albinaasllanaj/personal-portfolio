@@ -271,10 +271,12 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
   gap: 20px; /* Add gap between cards */
-}
 
-.card {
-  text-align: center; /* Center the content horizontally */
+  .card {
+    text-align: center; /* Center the content horizontally */
+    position: relative;
+    height: 300px;
+  }
 }
 
 .card img {
@@ -286,17 +288,23 @@ p {
 .container {
   margin-top: 10px; /* Add some space between the image and text */
 }
-.card .all-saint {
-  height: 80px;
-  width: 80px;
-}
 
 .card i {
   font-size: 24px; /* Set the desired font size */
   padding-top: 10px;
   color: black;
+  position: absolute;
+  bottom: 0;
 }
 
+a {
+  align-self: flex-end; /* Align the link to the bottom of the container */
+}
+
+.card .all-saint {
+  height: 80px;
+  width: 80px;
+}
 /***
 .work-list {
   display: grid;
